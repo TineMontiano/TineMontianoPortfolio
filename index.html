@@ -1,0 +1,193 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Christine Montiano | Portfolio</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Fixed full-page animated background canvas -->
+  <div id="vanta-bg"></div>
+
+  <!-- Sticky Navigation Bar -->
+  <nav class="navbar" id="navbar">
+    <a href="#hero" class="nav-link active">Home</a>
+    <a href="#me" class="nav-link">About</a>
+    <a href="#projects" class="nav-link">Projects</a>
+    <a href="#skills" class="nav-link">Skills</a>
+    <a href="#contact" class="nav-link">Contact</a>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="hero">
+    <div class="hero-content">
+      <img src="./images/images1.jpg" id="Profile" class="image-fluid" alt="Christine R. Montiano profile picture" onerror="this.src='./images/profile_about.jpg'"/>
+      <h1><strong>CHRISTINE MONTIANO</strong></h1>
+      <h2>Aspiring Software Developer</h2>
+      <h3>A 4th-year Computer Science student passionate about Java programming, software engineering, and web development. Eager to take on challenges and contribute to impactful tech solutions.</h3>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- About Me Section -->
+    <section id="me" class="clickable-section active">
+      <div class="section-header">
+        <h2>About Me</h2>
+        <span class="toggle-icon"><i class="fa-solid fa-chevron-up"></i></span>
+      </div>
+      <div class="section-content">
+        <div class="about-grid">
+          <div class="about-text-col">
+            <p>
+              Hi! I’m an aspiring developer and Computer Science student eager to learn and build things that work. I enjoy coding in Java, exploring web development, and figuring out how everything fits together behind the screen. I’m always excited to take on beginner-friendly projects, learn from other developers, and grow my skills one step at a time!
+            </p>
+          </div>
+          <div class="about-image-col">
+            <img src="./images/cutout.png" alt="Christine Montiano" class="about-photo-cutout"/>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="clickable-section active">
+      <div class="section-header">
+        <h2>Academic Projects</h2>
+        <span class="toggle-icon"><i class="fa-solid fa-chevron-up"></i></span>
+      </div>
+      <div class="section-content">
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="proj-badge">2026 &bull; TESDA / C&C Academy</div>
+            <h3>SHIRT TO GO Inventory</h3>
+            <p>Developed using Java with a Java Swing user interface and SQL for database management. Helps manage inventory records, monitor stock levels, and organize product information.</p>
+            <div class="tech-stack-tags">
+              <span>Java</span><span>Java Swing</span><span>SQL</span>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="proj-badge">2025 &bull; EARIST</div>
+            <h3>Breath &amp; Sound Monitoring System</h3>
+            <p>Early detection system for asthma symptoms using ESP32 microcontroller and vital sensors (breathing sounds, heart rate, SpO2). Data is processed locally via FastAPI &amp; SQLite with a Flutter &amp; Dart interface.</p>
+            <div class="tech-stack-tags">
+              <span>ESP32</span><span>FastAPI</span><span>SQLite</span><span>Flutter &amp; Dart</span>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="proj-badge">2025 &bull; EARIST</div>
+            <h3>Web-Based Custom Bouquets System</h3>
+            <p>E-commerce platform for on-demand custom bouquets. Interactive frontend built with HTML, CSS, JavaScript, backed by PHP and MySQL database management.</p>
+            <div class="tech-stack-tags">
+              <span>HTML/CSS</span><span>JavaScript</span><span>PHP</span><span>MySQL</span>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="proj-badge">2024 &bull; EARIST</div>
+            <h3>Facial Attendance Recognition System</h3>
+            <p>Automated attendance recognition system utilizing Python, OpenCV for visual face recognition, and SQL database for logging attendance records seamlessly.</p>
+            <div class="tech-stack-tags">
+              <span>Python</span><span>OpenCV</span><span>SQL</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="clickable-section active">
+      <div class="section-header">
+        <h2>Skills</h2>
+        <span class="toggle-icon"><i class="fa-solid fa-chevron-up"></i></span>
+      </div>
+      <div class="section-content">
+        <div class="skills-glow-container">
+          <div class="skill-glow-item" title="Java">
+            <div class="skill-glow-circle">
+              <i class="fa-brands fa-java"></i>
+            </div>
+            <span class="skill-glow-label">Java</span>
+          </div>
+
+          <div class="skill-glow-item" title="MySQL / SQL">
+            <div class="skill-glow-circle">
+              <i class="fa-solid fa-database"></i>
+            </div>
+            <span class="skill-glow-label">MySQL</span>
+          </div>
+
+          <div class="skill-glow-item" title="Python">
+            <div class="skill-glow-circle">
+              <i class="fa-brands fa-python"></i>
+            </div>
+            <span class="skill-glow-label">Python</span>
+          </div>
+
+          <div class="skill-glow-item" title="UI / UX Design">
+            <div class="skill-glow-circle">
+              <i class="fa-solid fa-pen-ruler"></i>
+            </div>
+            <span class="skill-glow-label">UI / UX</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="clickable-section active">
+      <div class="section-header">
+        <h2>Contact &amp; Connect</h2>
+        <span class="toggle-icon"><i class="fa-solid fa-chevron-up"></i></span>
+      </div>
+      <div class="section-content">
+        <p class="contact-desc">Click any icon below to view my profiles, open my resume, or draft an email directly to me:</p>
+        
+        <div class="social-links">
+          <!-- LinkedIn -->
+          <a href="https://www.linkedin.com/in/tinemontiano/" target="_blank" rel="noopener noreferrer" title="LinkedIn Profile" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+
+          <!-- GitHub -->
+          <a href="https://github.com/TineMontiano" target="_blank" rel="noopener noreferrer" title="GitHub Profile" aria-label="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
+
+          <!-- Facebook -->
+          <a href="https://www.facebook.com/tine.montiano/" target="_blank" rel="noopener noreferrer" title="Facebook Profile" aria-label="Facebook">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+
+          <!-- Email -->
+          <a href="mailto:montiano.christine.07bscs@gmail.com?subject=Job%20Opportunity%20%2F%20Inquiry%20-%20Christine%20Montiano&body=Dear%20Christine,%0D%0A%0D%0AI%20reviewed%20your%20portfolio%20and%20resume%20and%20would%20like%20to%20discuss..." title="Send / Draft Email to Christine" aria-label="Draft Email">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+
+          <!-- Resume PDF Google Drive Link -->
+          <a href="https://drive.google.com/file/d/1pvYFmqcpYxy_LF4SsVws4fQZ7gGhC2pf/view?usp=sharing" target="_blank" rel="noopener noreferrer" title="View & Download Resume via Google Drive" aria-label="View Resume" class="resume-icon-btn">
+            <i class="fa-solid fa-file-pdf"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="portfolio-footer">
+    <p>&copy; 2026 Christine R. Montiano &bull; Computer Science Student &amp; Aspiring Software Developer</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+  <script src="https://kit.fontawesome.com/3879999733.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>
